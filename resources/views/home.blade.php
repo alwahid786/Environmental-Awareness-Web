@@ -966,8 +966,26 @@
     function myThumbnailInit(item) {
         // Customize thumbnail initialization if needed
     }
-    </script>
 
+
+</script>
+<script>
+    // Smooth Scroll
+    document.querySelectorAll('.nav-link').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetID = this.getAttribute('href');
+            const targetSection = document.querySelector(targetID);
+
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+</script>
 </body>
 
 </html>
