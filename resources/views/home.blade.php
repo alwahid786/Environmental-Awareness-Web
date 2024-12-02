@@ -188,6 +188,11 @@
             color: white;
         }
 
+        .nav-link:focus {
+            color: white !important; 
+            outline: none; 
+        }
+
         .navbar.transparent-navbar {
             background-color: transparent !important;
         }
