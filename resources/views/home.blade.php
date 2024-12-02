@@ -20,8 +20,20 @@
     <title>Citarum Water</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css" integrity="sha512-eBNnVs5xPOVglLWDGXyZnZZ2K2ixXhR/3aECgCpFnW2dGCd/yiqXZ6fcB3BubeA91kM6NX234b6Wrah8RiYAPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet">
+
 
     <style>
+        body {
+            overflow-x: hidden !important;
+        }
+
+        #lightgallery a img, #lightgallery a video, #nanoGalleryContainer a  {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
         @media screen and (max-width: 992px) {
             .navbar-brand {
                 width: 25% !important;
@@ -297,6 +309,7 @@
             background-color: #174C90;
             color: white;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
         }
@@ -386,6 +399,14 @@
                                     <a lang="ind" class="nav-link" href="#facts">fakta</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a lang="en" class="nav-link" href="#globall-activites">Globall Activities</a>
+                                    <a lang="ind" class="nav-link" href="#globall-activites">Kegiatan Globall</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a lang="en" class="nav-link" href="#citarum-community">Citarum Community</a>
+                                    <a lang="ind" class="nav-link" href="#citarum-community">Komunitas Citarum</a>
+                                </li>
+                                <li class="nav-item">
                                     <a lang="en" class="nav-link" href="#contact">Contact Us</a>
                                     <a lang="ind" class="nav-link" href="#contact">Hubungi kami</a>
                                 </li>
@@ -432,6 +453,95 @@
                     <h1 lang="ind" class="headingText">Standar ganda</h1>
                     <p lang="en" class="px-md-5 px-sm-3 px-2 mt-4 text-left">A troubling double standard persists within Indonesian authorities; while publicized efforts suggest a commitment to environmental improvement, the reality on the ground tells a different story. It appears that, in practice, authorities may be adopting a policy of "closing their eyes" to the ongoing pollution of this vital waterway. <br /><br /> &nbsp &nbsp &nbsp The lack of effective enforcement of regulations and a seemingly lenient approach to industries contributing to the contamination raise questions about the genuine commitment of authorities to address this environmental crisis. This double standard not only hinders the progress of anti-pollution measures but also undermines the trust and expectations of the communities relying on the Citarum River for their daily needs.</p>
                     <p lang="ind" class="px-md-5 px-sm-3 px-2 mt-4">Standar ganda yang meresahkan masih terus terjadi di kalangan pemerintah Indonesia; Meskipun upaya yang dipublikasikan menunjukkan adanya komitmen terhadap perbaikan lingkungan, kenyataan di lapangan menunjukkan cerita yang berbeda. Tampaknya, dalam praktiknya, pihak berwenang mungkin mengambil kebijakan “menutup mata” terhadap pencemaran yang terus terjadi di jalur air penting ini. Kurangnya penegakan peraturan yang efektif dan pendekatan yang tampaknya lunak terhadap industri yang berkontribusi terhadap kontaminasi menimbulkan pertanyaan mengenai komitmen tulus pihak berwenang untuk mengatasi krisis lingkungan ini. Standar ganda ini tidak hanya menghambat kemajuan upaya anti-polusi namun juga melemahkan kepercayaan dan harapan masyarakat yang bergantung pada Sungai Citarum untuk kebutuhan sehari-hari.</p>
+                </div>
+            </div>
+        </section>
+        <section id="globall-activites">
+            <div class="row m-0">
+                <div class="col-12 text-center mt-5">
+                    <h2 lang="en" class="headingText">April 2024 - Paris, France</h2>
+                    <h2 lang="ind" class="headingText">April 2024 - Paris, Prancis</h2>
+                    <p lang="en" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
+                    In April, our team traveled to Paris to raise awareness about the alarming pollution of the Citarum River. We organized a public exhibition featuring powerful photographs and distributing bottles filled with "polluted" water from the Citarum, showcasing the river's current state and the communities affected by its pollution. Our efforts in Paris were aimed at engaging the international community and garnering support for stricter environmental policies in Indonesia. The event attracted significant attention  from concerned citizens.
+                    </p>
+                    <p lang="ind" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
+                    Pada bulan April, tim kami melakukan perjalanan ke Paris untuk meningkatkan kesadaran mengenai pencemaran Sungai Citarum yang mengkhawatirkan. Kami menyelenggarakan pameran publik yang menampilkan foto-foto yang kuat dan membagikan botol-botol berisi air yang "tercemar" dari Citarum, yang menampilkan kondisi sungai saat ini dan masyarakat yang terkena dampak polusi tersebut. Upaya kami di Paris bertujuan untuk melibatkan komunitas internasional dan menggalang dukungan bagi kebijakan lingkungan hidup yang lebih ketat di Indonesia. Peristiwa ini menarik perhatian besar dari warga yang peduli.
+                    </p>
+                </div>
+                <div class="col-12 py-5">
+                <div id="nanoGalleryContainer" class="nanoGallery">
+                        <a href="{{ asset('assets/gallery-images/april-image-1.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-1.jpg') }}" data-ngDesc="Image 1"></a>
+                        <a href="{{ asset('assets/gallery-images/april-image-2.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-2.jpg') }}" data-ngDesc="Image 2"></a>
+                        <a href="{{ asset('assets/gallery-images/april-image-3.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-3.jpg') }}" data-ngDesc="Image 3"></a>
+                        <a href="{{ asset('assets/gallery-images/april-image-4.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-4.jpg') }}" data-ngDesc="Image 4"></a>
+                        <a href="{{ asset('assets/gallery-images/april-image-5.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-5.jpg') }}" data-ngDesc="Sample Video"></a>
+                        <a href="{{ asset('assets/gallery-images/april-image-6.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-6.jpg') }}" data-ngDesc="Image 5"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="citarum-community">
+            <div class="row m-0">   
+                <div class="col-12 text-center mt-5">
+                    <h2 lang="en" class="headingText">This is citrum communitty</h2>
+                    <h2 lang="ind" class="headingText">Ini adalah komunitas jeruk</h2>
+                    <p lang="en" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
+                    In April, our team traveled to Paris to raise awareness about the alarming pollution of the Citarum River. We organized a public exhibition featuring powerful photographs and distributing bottles filled with "polluted" water from the Citarum, showcasing the river's current state and the communities affected by its pollution. Our efforts in Paris were aimed at engaging the international community and garnering support for stricter environmental policies in Indonesia. The event attracted significant attention  from concerned citizens.
+                    </p>
+                    <p lang="ind" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
+                    Pada bulan April, tim kami melakukan perjalanan ke Paris untuk meningkatkan kesadaran mengenai pencemaran Sungai Citarum yang mengkhawatirkan. Kami menyelenggarakan pameran publik yang menampilkan foto-foto yang kuat dan membagikan botol-botol berisi air yang "tercemar" dari Citarum, yang menampilkan kondisi sungai saat ini dan masyarakat yang terkena dampak polusi tersebut. Upaya kami di Paris bertujuan untuk melibatkan komunitas internasional dan menggalang dukungan bagi kebijakan lingkungan hidup yang lebih ketat di Indonesia. Peristiwa ini menarik perhatian besar dari warga yang peduli.
+                    </p>
+                </div>
+                <div class="col-12 py-5">
+                    <div class="col-12 py-5">
+                        <div id="nanoGalleryContainerTwo" class="nanoGallery">
+                            <a href="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngDesc="Image 11"></a>
+                            <a href="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngDesc="Image 12"></a>
+                            <a href="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngDesc="Image 13"></a>
+                            <a href="{{ asset('assets/gallery-images/img-14.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-14.jpeg') }}" data-ngDesc="Image 14"></a>
+                            <a href="{{ asset('assets/gallery-images/img-15.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-15.jpeg') }}" data-ngDesc="image 15"></a>
+                            <a href="{{ asset('assets/gallery-images/img-16.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-16.jpeg') }}" data-ngDesc="Image 16"></a>
+                            <a href="{{ asset('assets/gallery-images/img-17.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-17.jpeg') }}" data-ngDesc="Image 17"></a>
+                            <a href="{{ asset('assets/gallery-images/img-18.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-18.jpeg') }}" data-ngDesc="Image 18"></a>
+                            <a href="{{ asset('assets/gallery-images/img-19.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-19.jpeg') }}" data-ngDesc="Image 19"></a>
+                            <a href="{{ asset('assets/gallery-images/img-20.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-20.jpeg') }}" data-ngDesc="Image 20"></a>
+                            <a href="{{ asset('assets/gallery-images/img-21.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-21.jpeg') }}" data-ngDesc="Image 21"></a>
+                            <a href="{{ asset('assets/gallery-images/img-22.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-22.jpeg') }}" data-ngDesc="Image 22"></a>
+                            <a href="{{ asset('assets/gallery-images/img-23.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-23.jpeg') }}" data-ngDesc="Image 23"></a>
+                            <a href="{{ asset('assets/gallery-images/img-24.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-24.jpeg') }}" data-ngDesc="Image 24"></a>
+                            <a href="{{ asset('assets/gallery-images/img-25.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-25.jpeg') }}" data-ngDesc="Image 25"></a>
+                            <a href="{{ asset('assets/gallery-images/img-26.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-26.jpeg') }}" data-ngDesc="Image 26"></a>
+                            <a href="{{ asset('assets/gallery-images/img-27.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-27.jpeg') }}" data-ngDesc="Image 27"></a>
+                            <a href="{{ asset('assets/gallery-images/img-28.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-28.jpeg') }}" data-ngDesc="Image 28"></a>
+                            <a href="{{ asset('assets/gallery-images/img-29.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-29.jpeg') }}" data-ngDesc="Image 29"></a>
+                            <a href="{{ asset('assets/gallery-images/img-30.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-30.jpeg') }}" data-ngDesc="Image 30"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row m-0">
+                <div class="col-12 text-center mt-5">
+                    <h2 lang="en" class="headingText">May 2024 - Bali, Indonesia</h2>
+                    <h2 lang="ind" class="headingText">Mei 2024 - Bali, Indonesia</h2>
+                    <p lang="en" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
+                    In 20th of May, we took a bold step at the 10th Water Forum in Bali by distributing bottles of polluted water from the Citarum River to forum attendees. This dramatic demonstration aimed to highlight the Indonesian government's neglect of this environmental crisis. The act sparked widespread discussion and media coverage, emphasizing the urgent need for action to clean up the river and protect the health of the millions who depend on it. Our presence at the forum underscored our commitment to holding authorities accountable and advocating for the well-being of affected communities.
+                    </p>
+                    <p lang="ind" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
+                    Pada tanggal 20 Mei, kami mengambil langkah berani pada Forum Air ke-10 di Bali dengan membagikan botol-botol air tercemar dari Sungai Citarum kepada para peserta forum. Demonstrasi dramatis ini bertujuan untuk menyoroti kelalaian pemerintah Indonesia terhadap krisis lingkungan hidup. Tindakan tersebut memicu diskusi luas dan liputan media, menekankan perlunya tindakan mendesak untuk membersihkan sungai dan melindungi kesehatan jutaan orang yang bergantung padanya. Kehadiran kami di forum tersebut menggarisbawahi komitmen kami untuk menjaga akuntabilitas pihak berwenang dan memberikan advokasi bagi kesejahteraan masyarakat yang terkena dampak.
+                    </p>
+                </div>
+                <div class="col-12 py-5">
+                    <div id="nanoGalleryContainerTwo" class="nanoGallery">
+                        <a href="{{ asset('assets/gallery-images/img-9.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-1.jpg') }}" data-ngDesc="Image 1"></a>
+                        <a href="{{ asset('assets/gallery-images/img-10.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-2.jpg') }}" data-ngDesc="Image 2"></a>
+                        <a href="{{ asset('assets/gallery-images/img-3.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-3.jpg') }}" data-ngDesc="Image 3"></a>
+                        <a href="{{ asset('assets/gallery-images/img-4.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-4.jpg') }}" data-ngDesc="Image 4"></a>
+                        <a href="{{ asset('assets/gallery-images/indo-video.mp4') }}" data-ngThumb="{{ asset('assets/gallery-images/france-video-thumbnail.png') }}" data-ngDesc="Sample Video"></a>
+                        <a href="{{ asset('assets/gallery-images/img-5.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-5.jpg') }}" data-ngDesc="Image 5"></a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -667,15 +777,45 @@
         </section>
     </div>
     <footer lang="en" class="py-4">
-        Citarum Water - © 2023 All Rights Reserved
+        <div class="d-flex align-items-center mb-2" style="gap:1rem;">
+            <a href="https://www.facebook.com/citarumwater/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+            </a>
+            <a href="https://instagram.com/citarum_water" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+            </a>
+        </div>
+        <p class="text-white">Citarum Water - © 2023 All Rights Reserved</p>
     </footer>
     <footer lang="ind" class="py-4">
-        Air Citarum - © 2023 Hak Cipta Dilindungi Undang-Undang
+        <div class="d-flex align-items-center mb-2" style="gap:1rem;">
+            <a href="https://www.facebook.com/citarumwater/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg>
+            </a>
+            <a href="https://instagram.com/citarum_water" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+            </a>
+        </div>
+        <p class="text-white">Air Citarum - © 2023 Hak Cipta Dilindungi Undang-Undang</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Include NanoGallery2 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+
+
+
+
     @if(session()->has('success'))
     <script>
         $(document).ready(function() {
@@ -758,8 +898,55 @@
             const errorDivs = document.querySelectorAll(".error");
             errorDivs.forEach((div) => div.remove());
         }
-    </script>
 
+        
+        </script>
+    <script>
+    jQuery(document).ready(function () {
+        jQuery("#nanoGalleryContainer").nanogallery2({
+            thumbnailWidth: 400,
+            thumbnailHeight: 400,
+            thumbnailBorderHorizontal: 0,
+            thumbnailBorderVertical: 0,
+            itemsBaseURL: '{{ asset('assets/gallery-images/') }}', // Base URL for assets
+            thumbnailLabel: {
+                display: true
+            },
+            galleryDisplayMode: 'pagination',
+            gallerySorting: 'random',
+            paginationMaxLinesPerPage: 3,
+            locationHash: false,
+            fnThumbnailInit: myThumbnailInit
+        });
+    });
+
+    function myThumbnailInit(item) {
+        // Customize thumbnail initialization if needed
+    }
+    </script>
+    <script>
+    jQuery(document).ready(function () {
+        jQuery("#nanoGalleryContainerTwo").nanogallery2({
+            thumbnailWidth: 400,
+            thumbnailHeight: 400,
+            thumbnailBorderHorizontal: 0,
+            thumbnailBorderVertical: 0,
+            itemsBaseURL: '{{ asset('assets/gallery-images/') }}', // Base URL for assets
+            thumbnailLabel: {
+                display: true
+            },
+            galleryDisplayMode: 'pagination',
+            gallerySorting: 'random',
+            paginationMaxLinesPerPage: 3,
+            locationHash: false,
+            fnThumbnailInit: myThumbnailInit
+        });
+    });
+
+    function myThumbnailInit(item) {
+        // Customize thumbnail initialization if needed
+    }
+    </script>
 
 </body>
 
