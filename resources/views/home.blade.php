@@ -480,6 +480,31 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div class="row m-0">
+                <div class="col-12 text-center mt-5">
+                    <h2 lang="en" class="headingText">May 2024 - Bali, Indonesia</h2>
+                    <h2 lang="ind" class="headingText">Mei 2024 - Bali, Indonesia</h2>
+                    <p lang="en" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
+                    In 20th of May, we took a bold step at the 10th Water Forum in Bali by distributing bottles of polluted water from the Citarum River to forum attendees. This dramatic demonstration aimed to highlight the Indonesian government's neglect of this environmental crisis. The act sparked widespread discussion and media coverage, emphasizing the urgent need for action to clean up the river and protect the health of the millions who depend on it. Our presence at the forum underscored our commitment to holding authorities accountable and advocating for the well-being of affected communities.
+                    </p>
+                    <p lang="ind" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
+                    Pada tanggal 20 Mei, kami mengambil langkah berani pada Forum Air ke-10 di Bali dengan membagikan botol-botol air tercemar dari Sungai Citarum kepada para peserta forum. Demonstrasi dramatis ini bertujuan untuk menyoroti kelalaian pemerintah Indonesia terhadap krisis lingkungan hidup. Tindakan tersebut memicu diskusi luas dan liputan media, menekankan perlunya tindakan mendesak untuk membersihkan sungai dan melindungi kesehatan jutaan orang yang bergantung padanya. Kehadiran kami di forum tersebut menggarisbawahi komitmen kami untuk menjaga akuntabilitas pihak berwenang dan memberikan advokasi bagi kesejahteraan masyarakat yang terkena dampak.
+                    </p>
+                </div>
+                <div class="col-12 py-5">
+                    <div id="nanoGalleryContainerTwo" class="nanoGallery">
+                        <a href="{{ asset('assets/gallery-images/img-9.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-1.jpg') }}" data-ngDesc="Image 1"></a>
+                        <a href="{{ asset('assets/gallery-images/img-10.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-2.jpg') }}" data-ngDesc="Image 2"></a>
+                        <a href="{{ asset('assets/gallery-images/img-3.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-3.jpg') }}" data-ngDesc="Image 3"></a>
+                        <a href="{{ asset('assets/gallery-images/img-4.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-4.jpg') }}" data-ngDesc="Image 4"></a>
+                        <a href="{{ asset('assets/gallery-images/indo-video.mp4') }}" data-ngThumb="{{ asset('assets/gallery-images/france-video-thumbnail.png') }}" data-ngDesc="Sample Video"></a>
+                        <a href="{{ asset('assets/gallery-images/img-5.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-5.jpg') }}" data-ngDesc="Image 5"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <section id="citarum-community">
             <div class="row m-0">   
@@ -495,7 +520,7 @@
                 </div>
                 <div class="col-12 py-5">
                     <div class="col-12 py-5">
-                        <div id="nanoGalleryContainerTwo" class="nanoGallery">
+                        <div id="nanoGalleryContainerThree" class="nanoGallery">
                             <a href="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngDesc="Image 11"></a>
                             <a href="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngDesc="Image 12"></a>
                             <a href="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngDesc="Image 13"></a>
@@ -517,30 +542,6 @@
                             <a href="{{ asset('assets/gallery-images/img-29.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-29.jpeg') }}" data-ngDesc="Image 29"></a>
                             <a href="{{ asset('assets/gallery-images/img-30.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-30.jpeg') }}" data-ngDesc="Image 30"></a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="row m-0">
-                <div class="col-12 text-center mt-5">
-                    <h2 lang="en" class="headingText">May 2024 - Bali, Indonesia</h2>
-                    <h2 lang="ind" class="headingText">Mei 2024 - Bali, Indonesia</h2>
-                    <p lang="en" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
-                    In 20th of May, we took a bold step at the 10th Water Forum in Bali by distributing bottles of polluted water from the Citarum River to forum attendees. This dramatic demonstration aimed to highlight the Indonesian government's neglect of this environmental crisis. The act sparked widespread discussion and media coverage, emphasizing the urgent need for action to clean up the river and protect the health of the millions who depend on it. Our presence at the forum underscored our commitment to holding authorities accountable and advocating for the well-being of affected communities.
-                    </p>
-                    <p lang="ind" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
-                    Pada tanggal 20 Mei, kami mengambil langkah berani pada Forum Air ke-10 di Bali dengan membagikan botol-botol air tercemar dari Sungai Citarum kepada para peserta forum. Demonstrasi dramatis ini bertujuan untuk menyoroti kelalaian pemerintah Indonesia terhadap krisis lingkungan hidup. Tindakan tersebut memicu diskusi luas dan liputan media, menekankan perlunya tindakan mendesak untuk membersihkan sungai dan melindungi kesehatan jutaan orang yang bergantung padanya. Kehadiran kami di forum tersebut menggarisbawahi komitmen kami untuk menjaga akuntabilitas pihak berwenang dan memberikan advokasi bagi kesejahteraan masyarakat yang terkena dampak.
-                    </p>
-                </div>
-                <div class="col-12 py-5">
-                    <div id="nanoGalleryContainerTwo" class="nanoGallery">
-                        <a href="{{ asset('assets/gallery-images/img-9.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-1.jpg') }}" data-ngDesc="Image 1"></a>
-                        <a href="{{ asset('assets/gallery-images/img-10.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-2.jpg') }}" data-ngDesc="Image 2"></a>
-                        <a href="{{ asset('assets/gallery-images/img-3.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-3.jpg') }}" data-ngDesc="Image 3"></a>
-                        <a href="{{ asset('assets/gallery-images/img-4.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-4.jpg') }}" data-ngDesc="Image 4"></a>
-                        <a href="{{ asset('assets/gallery-images/indo-video.mp4') }}" data-ngThumb="{{ asset('assets/gallery-images/france-video-thumbnail.png') }}" data-ngDesc="Sample Video"></a>
-                        <a href="{{ asset('assets/gallery-images/img-5.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-5.jpg') }}" data-ngDesc="Image 5"></a>
                     </div>
                 </div>
             </div>
@@ -927,6 +928,25 @@
     <script>
     jQuery(document).ready(function () {
         jQuery("#nanoGalleryContainerTwo").nanogallery2({
+            thumbnailWidth: 400,
+            thumbnailHeight: 400,
+            thumbnailBorderHorizontal: 0,
+            thumbnailBorderVertical: 0,
+            itemsBaseURL: '{{ asset('assets/gallery-images/') }}', // Base URL for assets
+            thumbnailLabel: {
+                display: true
+            },
+            galleryDisplayMode: 'pagination',
+            gallerySorting: 'random',
+            paginationMaxLinesPerPage: 3,
+            locationHash: false,
+            fnThumbnailInit: myThumbnailInit
+        });
+    });
+
+
+    jQuery(document).ready(function () {
+        jQuery("#nanoGalleryContainerThree").nanogallery2({
             thumbnailWidth: 400,
             thumbnailHeight: 400,
             thumbnailBorderHorizontal: 0,
