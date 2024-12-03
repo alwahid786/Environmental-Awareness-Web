@@ -371,6 +371,19 @@
             font-size: 18px;
         }
 
+        .singleContainer {
+            overflow: hidden; 
+            position: relative;
+        }
+
+         .singleContainer img {
+             transition: transform 0.3s ease; 
+         }
+         
+         .singleContainer:hover img {
+             transform: scale(1.2); 
+         }
+
         .specificFont {
             font-size: 25px;
         }
@@ -514,13 +527,13 @@
         <section id="citarum-community">
             <div class="row m-0">   
                 <div class="col-12 text-center mt-5">
-                    <h2 lang="en" class="headingText">This is citrum communitty</h2>
+                    <h2 lang="en" class="headingText">This is citrum community</h2>
                     <h2 lang="ind" class="headingText">Ini adalah komunitas jeruk</h2>
                     <p lang="en" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
-                    In April, our team traveled to Paris to raise awareness about the alarming pollution of the Citarum River. We organized a public exhibition featuring powerful photographs and distributing bottles filled with "polluted" water from the Citarum, showcasing the river's current state and the communities affected by its pollution. Our efforts in Paris were aimed at engaging the international community and garnering support for stricter environmental policies in Indonesia. The event attracted significant attention  from concerned citizens.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     <p lang="ind" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
-                    Pada bulan April, tim kami melakukan perjalanan ke Paris untuk meningkatkan kesadaran mengenai pencemaran Sungai Citarum yang mengkhawatirkan. Kami menyelenggarakan pameran publik yang menampilkan foto-foto yang kuat dan membagikan botol-botol berisi air yang "tercemar" dari Citarum, yang menampilkan kondisi sungai saat ini dan masyarakat yang terkena dampak polusi tersebut. Upaya kami di Paris bertujuan untuk melibatkan komunitas internasional dan menggalang dukungan bagi kebijakan lingkungan hidup yang lebih ketat di Indonesia. Peristiwa ini menarik perhatian besar dari warga yang peduli.
+                        Lorem sangat wortel, pengembang sarjana tomat, tetapi saya akan berada di inquod, dan rasa sakit dari waktu yang tepat.Untuk membuat pengampunan yang aneh, yang melaksanakan nostrud, Ullamco bekerja, kecuali sebagai aliquip dari kenyamanan konsekuensi.Pekerjaan rumah atau irre rasa sakit dalam kesenangan mengkritik untuk menjadi sepasang nyeri sepak bola melarikan diri.Excleur yang ingin mereka lakukan, mereka bersalah bahwa layanan meninggalkan jiwa yaitu makanan ringan.
                     </p>
                 </div>
                 <div class="col-12 py-5">
