@@ -497,6 +497,7 @@
                         <a href="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngDesc="Image 11"></a>
                         <a href="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngDesc="Image 12"></a>
                         <a href="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngDesc="Image 13"></a>
+                        <a href="{{ asset('assets/gallery-images/img-14.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-14.jpeg') }}" data-ngDesc="Image 14"></a>
                     </div>
                 </div>
             </div>
@@ -545,7 +546,6 @@
                 <div class="col-12 py-5">
                     <div class="col-12 py-5">
                         <div id="nanoGalleryContainerThree" class="nanoGallery">
-                            <a href="{{ asset('assets/gallery-images/img-14.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-14.jpeg') }}" data-ngDesc="Image 14"></a>
                             <a href="{{ asset('assets/gallery-images/img-16.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-16.jpeg') }}" data-ngDesc="Image 16"></a>
                             <a href="{{ asset('assets/gallery-images/img-18.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-18.jpeg') }}" data-ngDesc="Image 18"></a>
                             <a href="{{ asset('assets/gallery-images/img-19.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-19.jpeg') }}" data-ngDesc="Image 19"></a>
