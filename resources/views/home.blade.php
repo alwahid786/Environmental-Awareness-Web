@@ -417,8 +417,8 @@
                                     <a lang="ind" class="nav-link" href="#facts">fakta</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a lang="en" class="nav-link" href="#globall-activites">Globall Activities</a>
-                                    <a lang="ind" class="nav-link" href="#globall-activites">Kegiatan Globall</a>
+                                    <a lang="en" class="nav-link" href="#globall-activites">Global Activities</a>
+                                    <a lang="ind" class="nav-link" href="#globall-activites">Kegiatan global</a>
                                 </li>
                                 <li class="nav-item">
                                     <a lang="en" class="nav-link" href="#citarum-community">Citarum Community</a>
@@ -494,6 +494,9 @@
                         <a href="{{ asset('assets/gallery-images/april-image-4.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-4.jpg') }}" data-ngDesc="Image 4"></a>
                         <a href="{{ asset('assets/gallery-images/april-image-5.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-5.jpg') }}" data-ngDesc="Sample Video"></a>
                         <a href="{{ asset('assets/gallery-images/april-image-6.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/april-image-6.jpg') }}" data-ngDesc="Image 5"></a>
+                        <a href="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngDesc="Image 11"></a>
+                        <a href="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngDesc="Image 12"></a>
+                        <a href="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngDesc="Image 13"></a>
                     </div>
                 </div>
             </div>
@@ -519,6 +522,9 @@
                         <a href="{{ asset('assets/gallery-images/img-4.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-4.jpg') }}" data-ngDesc="Image 4"></a>
                         <a href="{{ asset('assets/gallery-images/indo-video.mp4') }}" data-ngThumb="{{ asset('assets/gallery-images/france-video-thumbnail.png') }}" data-ngDesc="Sample Video"></a>
                         <a href="{{ asset('assets/gallery-images/img-5.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-5.jpg') }}" data-ngDesc="Image 5"></a>
+                        <a href="{{ asset('assets/gallery-images/img-17.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-17.jpeg') }}" data-ngDesc="Image 17"></a>
+                        <a href="{{ asset('assets/gallery-images/img-8.jpg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-8.jpg') }}" data-ngDesc="Image 8"></a>
+                        <a href="{{ asset('assets/gallery-images/img-15.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-15.jpeg') }}" data-ngDesc="image 15"></a>
                     </div>
                 </div>
             </div>
@@ -530,22 +536,17 @@
                     <h2 lang="en" class="headingText">This is citrum community</h2>
                     <h2 lang="ind" class="headingText">Ini adalah komunitas jeruk</h2>
                     <p lang="en" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Our community is built on the stories, photos, and voices of people living near the river and those who care deeply about its future. Residents, activists, and supporters worldwide have joined forces to shed light on the pollution crisis, raise awareness, and take meaningful action. Together, we amplify the message that the Citarum deserves a second chance—for the environment, for the people who rely on it, and for future generations.
                     </p>
                     <p lang="ind" class="px-md-5 px-sm-3 px-2 mt-4 text-left">
-                        Lorem sangat wortel, pengembang sarjana tomat, tetapi saya akan berada di inquod, dan rasa sakit dari waktu yang tepat.Untuk membuat pengampunan yang aneh, yang melaksanakan nostrud, Ullamco bekerja, kecuali sebagai aliquip dari kenyamanan konsekuensi.Pekerjaan rumah atau irre rasa sakit dalam kesenangan mengkritik untuk menjadi sepasang nyeri sepak bola melarikan diri.Excleur yang ingin mereka lakukan, mereka bersalah bahwa layanan meninggalkan jiwa yaitu makanan ringan.
+                        Komunitas kami dibangun di atas cerita, foto, dan suara orang yang tinggal di dekat sungai dan mereka yang sangat peduli tentang masa depannya.Warga, aktivis, dan pendukung di seluruh dunia telah bergabung untuk menjelaskan krisis polusi, meningkatkan kesadaran, dan mengambil tindakan yang bermakna.Bersama -sama, kami memperkuat pesan bahwa Citarum layak mendapat kesempatan kedua - untuk lingkungan, bagi orang -orang yang mengandalkannya, dan untuk generasi mendatang.
                     </p>
                 </div>
                 <div class="col-12 py-5">
                     <div class="col-12 py-5">
                         <div id="nanoGalleryContainerThree" class="nanoGallery">
-                            <a href="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-11.jpeg') }}" data-ngDesc="Image 11"></a>
-                            <a href="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-12.jpeg') }}" data-ngDesc="Image 12"></a>
-                            <a href="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-13.jpeg') }}" data-ngDesc="Image 13"></a>
                             <a href="{{ asset('assets/gallery-images/img-14.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-14.jpeg') }}" data-ngDesc="Image 14"></a>
-                            <a href="{{ asset('assets/gallery-images/img-15.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-15.jpeg') }}" data-ngDesc="image 15"></a>
                             <a href="{{ asset('assets/gallery-images/img-16.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-16.jpeg') }}" data-ngDesc="Image 16"></a>
-                            <a href="{{ asset('assets/gallery-images/img-17.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-17.jpeg') }}" data-ngDesc="Image 17"></a>
                             <a href="{{ asset('assets/gallery-images/img-18.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-18.jpeg') }}" data-ngDesc="Image 18"></a>
                             <a href="{{ asset('assets/gallery-images/img-19.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-19.jpeg') }}" data-ngDesc="Image 19"></a>
                             <a href="{{ asset('assets/gallery-images/img-20.jpeg') }}" data-ngThumb="{{ asset('assets/gallery-images/img-20.jpeg') }}" data-ngDesc="Image 20"></a>
